@@ -1,0 +1,25 @@
+.centerImage {
+    height: 600px;
+    background-image: url('/KH_OurJourney_Bkgd_02_800.png');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+/* Book Now Button Styling */
+.bookNow {
+    position: absolute;
+    bottom: 20px;  /* Adjust vertical position */
+    right: 50%;  /* Center horizontally */
+    transform: translateX(50%);
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+}
+
+.bookNow img {
+    max-width: 100%;
+    height: auto;
+}

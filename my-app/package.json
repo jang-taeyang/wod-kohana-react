@@ -1,0 +1,22 @@
+{
+  "name": "kohana-rum",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3",
+    "next": "latest",
+    "react": "latest",
+    "react-bootstrap": "^2.8.0",
+    "react-bootstrap-icons": "^1.10.0",
+    "typescript": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "22.13.9"
+  }
+}
